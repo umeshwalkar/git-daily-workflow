@@ -28,3 +28,5 @@ Step 8 - **git merge branch-name-here**</br>
 Step 9 - **git push**</br>
 > send your changes up to the remote repository.
 
+
+[Check more commands](git-commands.md)
