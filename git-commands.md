@@ -42,12 +42,18 @@ but is an important Git operation.
 * **git push** > Uploads all local branch commits to GitHub.
 * **git pull** > Updates your current local working branch with all new commits from the corresponding remote branch on GitHub.
  **git pull** is a combination of **git fetch** and **git merge**.
+* **git reset HEAD -- path/to/file** > unstage specific file
+* **git reset HEAD --** > unstage all changes
  
 ## Configure 
 * **git config --global user.name "[name]"** > Sets the name you want attached to your commit transactions.
 * **git config --global user.email "[email address]"** > Sets the email you want attached to your commit transactions.
 * **git config --global color.ui auto** > Enables helpful colorization of command line output.
 * **.gitgnore** > put excluded file list in this file. See [github.com/github/gitignore](https://github.com/github/gitignore).
+
+## Commits
+* **git log** > printing commit message logs. Enter q to exit form log mode.
+
 
 
 
