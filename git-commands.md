@@ -16,11 +16,13 @@
 * **git reset --hard [commit]** > Discards all history and changes back to the specified commit
 
 ## Branches
+* **git branch** > lists branches
 * **git branch [branch-name]** > Creates a new branch.
 * **git checkout [branch-name]** > Switches to the specified branch and updates the working directory.
 * **git merge [branch]** > Combines the specified branch’s history into the current branch. This is usually done in pull requests,
 but is an important Git operation.
 * **git branch -d [branch-name]** > Deletes the specified branch.
+* **git push -u origin [branch-name]** > push local branch to remote.
 
 ## Tagging
 * **git tag** > Listing the existing tags.
