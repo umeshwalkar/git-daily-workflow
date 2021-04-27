@@ -16,7 +16,9 @@
 * **git reset --hard [commit]** > Discards all history and changes back to the specified commit
 
 ## Branches
-* **git branch** > lists branches
+* **git branch** > lists local branches.
+* **git branch -r** > lists remote branches.
+* **git branch -a** > lists all local and remote branches.
 * **git branch [branch-name]** > Creates a new branch.
 * **git checkout [branch-name]** > Switches to the specified branch and updates the working directory.
 * **git merge [branch]** > Combines the specified branch’s history into the current branch. This is usually done in pull requests,
