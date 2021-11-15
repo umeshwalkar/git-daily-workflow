@@ -38,7 +38,8 @@ but is an important Git operation.
 * **git tag -d [tag-name]** > delete tag on local repository.
 * **git push origin --delete [tag-name]** > delete tag on remote repository.
 * **git checkout [tag-name]** > to view files on this [tag-name]. Caution, any further commits on this will be point nowhere. better use **git checkout -b version2 [tag-name]** to make changes.
-
+* **git fetch --tags** > This will fetch all remote tags. Optionally can use '--all' keyword.
+* **$ git checkout $tag -b latest** > to checkout the latest git tag. where $ tag=$(git describe --tags `git rev-list --tags --max-count=1`) need to apply first. Apply '$ echo $tag' to view latest tag.
 
 ## Synchronize Changes
 * **git fetch** > Downloads all history from the remote tracking branches.
