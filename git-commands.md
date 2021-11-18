@@ -59,7 +59,11 @@ but is an important Git operation.
 ## Commits
 * **git log** > printing commit message logs. Enter q to exit form log mode.
 
-
-
-
+## Remote repository
+* **git config --get remote.origin.url** > display cuurent remote url.
+* **git remote add origin https://github.com/user/repo.git** > adding remote repository.
+* **git remote set-url origin https://github.com/USERNAME/REPOSITORY.git** > Changing a remote repository's URL.
+* **git remote rename origin destination** > Change remote name from 'origin' to 'destination'.
+* **git remote rm destination** > Remove remote. example here removing 'destination'. Note: It does not delete the remote repository from the server. It simply removes the remote and its references from your local repository.
+* **git remote -v** > Verify remote for the changes made.
  
