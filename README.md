@@ -31,4 +31,6 @@ Step 9 - **git push**</br>
 
 [Check more commands](git-commands.md)
 
-[Online editor](https://pandao.github.io/editor.md/en.html)
+[Markdown Online Editor](https://pandao.github.io/editor.md/en.html)
+
+[Markdown Tables Generator](https://www.tablesgenerator.com/markdown_tables)
